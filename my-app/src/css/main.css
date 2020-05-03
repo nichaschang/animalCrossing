@@ -1,0 +1,50 @@
+body{
+    font-family:sans-serif;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+}
+.headerStyle{
+    width:100%;
+    height:80px;
+    background:rgba(0,0,0,0.65);
+    background-image:url("/image/header01.jpg")
+}
+
+.headerList{
+    list-style-type:none;
+    display:flex;
+    font-size: 20px;
+    height: 100%;
+}
+
+.headerList li{
+display: flex;
+align-items: center;
+justify-content: center;
+padding:0 15px;
+height: 80px;
+letter-spacing: 5px;
+}
+
+.headerList li:hover{
+    background-color: rgba(0,170,136,0.35);
+    color: #fff;
+    transition: .2s;
+}
+.headerList li:hover a{
+    transition: .2s;
+    color: #fff;
+}
+.headerList a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: block;
+}
+
+.flexCol{
+    flex-direction: column;
+}

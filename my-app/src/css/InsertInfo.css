@@ -1,0 +1,100 @@
+.insertInfo-content-box{
+    min-height: 400px;
+    width: 760px;
+    margin:0px auto;
+    padding:10px;
+    box-shadow: 0px 0px 16px 2px #0a8;
+    background-color: rgba(255,255,255,0.95);
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: col;
+}
+.insertInfo-box{
+    width: 100%;
+    height: 70vh;
+    padding: 10px;
+    border-collapse: collapse;
+    
+}
+
+.insertInfo-box  tr{
+    text-align: left;
+}
+.insertInfo-box th{
+    text-align: center;
+    width: 20%;
+}
+.create-btn{
+    margin-bottom: 15px;
+    border: none;
+    background:#0a8 ;
+    padding: 15px;
+    color: #fff;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+.hour-list{
+    width:20%;
+    padding: 3px;
+    margin:2px;
+    text-align: center;
+    border-radius: 8px;
+    color:#fff;
+    border:3px solid #999;
+}
+
+.hour-list:hover{
+border:3px solid #0c8;
+box-shadow: 0px 0px 5px #0c8;
+}
+
+.hour-list-input{
+    display: none;
+}
+
+.All-day-list{
+    padding: 3px 30px;
+    margin: 2px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    color:#fff;
+}
+.All-day-input{
+    display: none;
+}
+
+.input-box-style{
+    border:3px solid #999;
+    border-radius: 8px;
+    width: 90%;
+    padding: 10px 5px;
+    outline: none;
+}
+
+
+
+
+.input-box-style:focus{
+    border:3px solid #0c8;
+}
+
+.insert-select{
+    width: 90%;
+    border:3px solid #999;
+    padding: 5px;
+    outline: none;
+}
+.insert-select:focus{
+    border:3px solid #0c8;
+}

@@ -1,0 +1,19 @@
+.month-list{
+    width:20%;
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 8px;
+    color:#fff;
+    border:3px solid #999;
+    cursor: pointer;
+}
+
+.month-list:hover{
+border:3px solid #0c8;
+box-shadow: 0px 0px 5px #0c8;
+}
+
+.month-list-input{
+display: none;
+}
